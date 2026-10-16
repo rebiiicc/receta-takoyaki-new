@@ -1,0 +1,22 @@
+body {
+    background-image: url("../imagenes/sakura.jfif");
+    background-attachment: fixed;
+     }
+
+ .verde { color: green;}
+
+.rosa {color: pink;
+background-color: #ffe4ec;
+text-decoration: underline;
+      }
+.titulo-principal { color: red,
+font-family: "Arial Narrow", sans-serif;
+font-size: 70px;
+font-weight: 300;
+color: #171717;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 4px;
+background: transparent;
+text-decoration: none;
+}
