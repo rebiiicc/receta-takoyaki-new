@@ -1,15 +1,32 @@
-body {
-    background-image: url("../imagenes/sakura.jfif");
-    background-attachment: fixed;
-     }
+body
 
+header{display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+}
+
+nav{display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-between;
+}
+
+footer{display: flex;
+justify-content: space-around;
+align-items: center;}
+
+
+
+.redes {width: 80px;
+        height: 80px;
+}
  .verde { color: green;}
 
-.rosa {color: pink;
+.verde {color: green;
 background-color: #ffe4ec;
 text-decoration: underline;
       }
-.titulo-principal { color: red,
+.titulo-principal { color: coral;
 font-family: "Arial Narrow", sans-serif;
 font-size: 70px;
 font-weight: 300;
@@ -17,6 +34,6 @@ color: #171717;
 text-align: center;
 text-transform: uppercase;
 letter-spacing: 4px;
-background: transparent;
+background-color: pink;
 text-decoration: none;
 }
